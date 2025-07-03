@@ -1,0 +1,329 @@
+#index{
+    background-color: #121212;
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+#header{
+    display: flex;
+    flex: content;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav{
+    display: flex;
+    flex: content;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+}
+#navtext{
+    color: #959595;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+#navtext:hover{
+    color: #FD6F00;
+}
+#primarybtn{
+    padding: 12px 40px 12px 40px;
+    background-color: #FD6F00;
+    border-radius: 8px;
+    text-decoration: solid;
+    border: 1px;
+    border-color: none;
+    color: #ffff;
+}
+#primarybtn:hover{
+    padding: 12px 40px 12px 40px;
+    background-color: #FD6F00;
+    border-radius: 8px;
+    text-decoration: solid;
+    border: 1px solid;
+    border-color: #FD6F00;
+    color: #ffff;
+    box-shadow: 0 8px 20px rgba(253, 111, 0, 0.4); /* soft orange shadow */
+  transform: -2px;
+}
+#scendarybtn{
+    padding: 12px 40px 12px 40px;
+    background-color: #121212;
+    border-radius: 8px;
+    text-decoration: solid;
+    border: 1px solid;
+    border-color: #959595;
+    color: #959595;
+}
+#scendarybtn:hover{
+    padding: 12px 40px 12px 40px;
+    background-color: none;
+    border-radius: 8px;
+    text-decoration: solid;
+    border: 1px solid;
+    border-color: #FD6F00;
+    color: #FD6F00;
+    box-shadow: 0 8px 20px rgba(253, 111, 0, 0.4); /* soft orange shadow */
+  transform: -2px;
+}
+#herosection{
+padding-top: 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+#lato6{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+#lato7{
+    color: #959595;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+#lato9 {
+  background: linear-gradient(90deg, #984300, #FD6F00, #CA5900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 56px;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  width: fit-content;
+  max-width: 100%;
+  white-space: nowrap;         
+  overflow: hidden;          
+  animation: typing 4s steps(28, end) forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+  #social{
+    gap: 16px;
+    display: flex;
+    flex: content;
+    flex-direction: row;
+  }
+  #link{
+display: flex;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #575757;
+    border-radius: 100px;
+  }
+  #link:hover{
+    display: flex;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #575757;
+        border-radius: 100px;
+        background-color: #575757
+      }
+  #image{
+    width: 24px;
+    height: 24px;
+  }
+  #project{
+    background-color: #FFFFFF0F;
+    border-radius: 8px;
+    border:1px solid;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 24px;
+    width: fit-content;
+  }
+  #detail{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-right: 1px solid #959595;
+    padding-right: 24px;
+  }
+  #detaillast{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 24px;
+  }
+  #number{
+    color: #FD6F00;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+  }
+  #about{
+    color: #DFDFDF;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    gap: 0px;
+  }
+  #services{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+  }
+  #servicesheading{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+#headingtext{
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+#lato-5-20{
+  color: #707070;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+#servicesview{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  gap: 24px;
+}
+#serviceof{
+  background-color: #FFFFFF0F;
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  max-width: 399px;
+}
+#serviceof:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+#primarytext{
+  font-size: 24px;
+  font-weight: 700;
+  color: #FD6F00;
+  font-family: 'Lato', sans-serif;
+}
+#disc{
+  font-size: 20px;
+  font-weight: 500;
+  color: #575757;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+#aboutme{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+#aboutdetails{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+#progress{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-items: center;
+  justify-content: space-between;
+}
+#progressview{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-items: center;
+  align-items: center;
+}
+.progress-ring {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.center-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.center-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.circle {
+  transform: rotate(90deg);
+  width: 100px;
+  height: 100px;
+}
+
+.circle circle {
+  fill: none;
+  stroke-width: 10;
+  cx: 50;
+  cy: 50;
+  r: 45;
+}
+
+.bg {
+  stroke: #222; /* background ring */
+}
+
+.progress {
+  stroke: #E46400;
+  stroke-dasharray: 282.6; /* 2πr = 2 * 3.14 * 45 */
+  stroke-dashoffset: 85;    /* Adjust this value for % progress */
+  transition: stroke-dashoffset 1s ease;
+}
+#progressvalue{
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #984300, #FD6F00, #CA5900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+}
+#progresstool{
+  font-size: 24px;
+  font-weight: 700;
+  color: #959595;
+  margin: 0px;
+}
